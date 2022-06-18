@@ -6,9 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Ucall Document',
+  // themes: ['@docusaurus/theme-search-algolia'],
+  tagline: 'Ucall are cool',
+  url: 'https://docs.ucall.vn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,7 +25,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr',],
   },
 
   presets: [
@@ -70,8 +71,12 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ucall-asia/document',
             label: 'GitHub',
             position: 'right',
           },
